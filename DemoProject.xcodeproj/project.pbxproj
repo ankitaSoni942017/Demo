@@ -54,14 +54,86 @@
 		786C0E471E7BBA570018AA4E /* DemoProject */ = {
 			isa = PBXGroup;
 			children = (
-				786C0E481E7BBA570018AA4E /* AppDelegate.swift */,
-				786C0E4A1E7BBA570018AA4E /* ViewController.swift */,
-				786C0E4C1E7BBA570018AA4E /* Main.storyboard */,
+				786C0E5A1E7BBA600018AA4E /* Classes */,
 				786C0E4F1E7BBA570018AA4E /* Assets.xcassets */,
-				786C0E511E7BBA570018AA4E /* LaunchScreen.storyboard */,
 				786C0E541E7BBA570018AA4E /* Info.plist */,
 			);
 			path = DemoProject;
+			sourceTree = "<group>";
+		};
+		786C0E5A1E7BBA600018AA4E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				786C0E481E7BBA570018AA4E /* AppDelegate.swift */,
+				786C0E5C1E7BBAAD0018AA4E /* Cells */,
+				786C0E621E7BBAE00018AA4E /* Custom Views */,
+				786C0E611E7BBAD80018AA4E /* Extensions */,
+				786C0E601E7BBAD10018AA4E /* Network */,
+				786C0E5F1E7BBACB0018AA4E /* Model */,
+				786C0E5E1E7BBAC00018AA4E /* User Interface */,
+				786C0E5D1E7BBAB40018AA4E /* View Controllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		786C0E5B1E7BBA810018AA4E /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		786C0E5C1E7BBAAD0018AA4E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		786C0E5D1E7BBAB40018AA4E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				786C0E4A1E7BBA570018AA4E /* ViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		786C0E5E1E7BBAC00018AA4E /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				786C0E4C1E7BBA570018AA4E /* Main.storyboard */,
+				786C0E511E7BBA570018AA4E /* LaunchScreen.storyboard */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		786C0E5F1E7BBACB0018AA4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		786C0E601E7BBAD10018AA4E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		786C0E611E7BBAD80018AA4E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		786C0E621E7BBAE00018AA4E /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				786C0E5B1E7BBA810018AA4E /* Core Data */,
+			);
+			name = "Custom Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
