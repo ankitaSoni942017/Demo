@@ -12,6 +12,7 @@
 		786C0E4E1E7BBA570018AA4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786C0E4C1E7BBA570018AA4E /* Main.storyboard */; };
 		786C0E501E7BBA570018AA4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 786C0E4F1E7BBA570018AA4E /* Assets.xcassets */; };
 		786C0E531E7BBA570018AA4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786C0E511E7BBA570018AA4E /* LaunchScreen.storyboard */; };
+		7871C4D11EADDB5300821993 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7871C4D01EADDB5300821993 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +22,7 @@
 		786C0E4D1E7BBA570018AA4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		786C0E4F1E7BBA570018AA4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		786C0E521E7BBA570018AA4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		786C0E541E7BBA570018AA4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7871C4D01EADDB5300821993 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				786C0E5A1E7BBA600018AA4E /* Classes */,
+				7871C4D01EADDB5300821993 /* Info.plist */,
 				786C0E4F1E7BBA570018AA4E /* Assets.xcassets */,
-				786C0E541E7BBA570018AA4E /* Info.plist */,
 			);
 			path = DemoProject;
 			sourceTree = "<group>";
@@ -195,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7871C4D11EADDB5300821993 /* Info.plist in Resources */,
 				786C0E531E7BBA570018AA4E /* LaunchScreen.storyboard in Resources */,
 				786C0E501E7BBA570018AA4E /* Assets.xcassets in Resources */,
 				786C0E4E1E7BBA570018AA4E /* Main.storyboard in Resources */,
@@ -371,6 +373,7 @@
 				786C0E591E7BBA570018AA4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
